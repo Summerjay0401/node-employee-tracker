@@ -22,7 +22,6 @@ module.exports = [
         message: "Which manager do you want to assign the selected employee?",
         name: "manager_id",
         choices: async (answers) => {
-            console.log(answers)
             const employees = await getAllEmployees();
             return employees.map(employee => {
                 return {

@@ -1,6 +1,6 @@
 const {
     getAllDepartment
-} = require('../lib/queries')
+} = require('../../lib/queries')
 
 module.exports = [
     {

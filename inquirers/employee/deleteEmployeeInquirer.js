@@ -1,6 +1,6 @@
 const {
     getAllEmployees
-} = require('../lib/queries')
+} = require('../../lib/queries')
 
 module.exports = [
     {
